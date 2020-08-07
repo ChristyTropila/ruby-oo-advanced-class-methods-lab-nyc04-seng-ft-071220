@@ -32,7 +32,7 @@ def self.find_by_name
   self.all.find do|songs|
   if songs.name ==self
   else
-    return nil 
+    return nil
   end
 end
 end
